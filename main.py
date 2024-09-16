@@ -1,16 +1,23 @@
-# This is a sample Python script.
+lista_initiala = [7, 8, 9, 2, 3, 1, 4, 10, 5, 6]
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+lista_initiala.sort()
+lista_pare = lista_initiala[1::2]
+print(lista_initiala)
+lista_multipi_trei = []
+
+for n in lista_initiala:
+    if n % 3 == 0:
+        lista_multipi_trei.append(n)
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+lista_initiala.reverse()
+lista_impare = lista_initiala[1::2]
+print(lista_initiala)
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+
+print(lista_pare)
+print(lista_impare)
+print(lista_multipi_trei)
