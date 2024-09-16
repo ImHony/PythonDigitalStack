@@ -9,14 +9,9 @@ for n in lista_initiala:
     if n % 3 == 0:
         lista_multipi_trei.append(n)
 
-
 lista_initiala.reverse()
 lista_impare = lista_initiala[1::2]
 print(lista_initiala)
-
-
-
-
 
 print(lista_pare)
 print(lista_impare)
